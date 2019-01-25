@@ -1,4 +1,4 @@
-BLE-Mesh - a BLE-MESH light example
+BLE-Mesh - a BLE-MESH light example  [![Travis Build Status](https://travis-ci.org/oslight/ble-mesh.svg?branch=master)](https://travis-ci.org/oslight/ble-mesh)
 ===================================
 
 A simple open source lightbulb project built on the Open Source Foundries Zephyr microPlatform.  This sample is built against the latest public releases available at [Open Source Foundries on Github](http://github.com/opensourcefoundries.com).
