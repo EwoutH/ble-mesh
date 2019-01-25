@@ -3,5 +3,7 @@ language: c
 os:
  - linux
  - osx
- 
+
+before_script: git submodule update --init --recursive
+
 script: make
