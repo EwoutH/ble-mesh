@@ -3,7 +3,17 @@ language: c
 os:
  - linux
  - osx
+ 
+compiler:
+ - gcc
+# - clang
 
-before_script: git submodule update --init --recursive
+before_script:
+ #get the Zephyr microPlatform
+ - repo init -u https://github.com/OpenSourceFoundries/zmp-manifest
+ - repo sync
+ #get the lwm2m zephyr app
+ - git clone https://github.com/oslight/lwm2m-light
+ - git submodule update --init --recursive
 
 script: make
